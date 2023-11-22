@@ -1,6 +1,5 @@
+import 'package:dayno_ui/dayno/screens/profile.dart';
 import 'package:flutter/material.dart';
-
-import 'dayno/screens/profile.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,7 +8,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: ProfileScreen(),
     );
